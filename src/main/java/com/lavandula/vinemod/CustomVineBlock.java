@@ -7,10 +7,7 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.server.world.ServerWorld;
-
 import net.minecraft.util.math.random.Random;
-
-
 
 public class CustomVineBlock extends VineBlock {
     public static final BooleanProperty GROWING = BooleanProperty.of("growing");
@@ -33,8 +30,6 @@ public class CustomVineBlock extends VineBlock {
         if (state.get(GROWING)) {
             // Allow the default vine growth behavior
             super.randomTick(state, world, pos, random);
-        } else {
-            // Do nothing if growing is false (effectively stops growth)
         }
     }
 }

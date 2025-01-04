@@ -12,7 +12,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.lavandula.vinemod.vinemod"
+			"com.lavandula.vinemod.VineMod"
 		]
 	},
 	"depends": {
