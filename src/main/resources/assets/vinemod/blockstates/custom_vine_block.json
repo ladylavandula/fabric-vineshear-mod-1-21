@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "vinemod:block/custom_vine" }
+  }
+}

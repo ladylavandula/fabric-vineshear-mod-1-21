@@ -1,0 +1,7 @@
+# Ignore Gradle cache and build files
+.gradle/
+build/
+.idea/
+*.iml
+out/
+.DS_Store
